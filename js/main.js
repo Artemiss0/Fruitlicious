@@ -21,12 +21,32 @@ var DraggableFruit = (function () {
     function DraggableFruit() {
     }
     DraggableFruit.prototype.createElement = function () {
+        var _this = this;
         var tree = document.getElementsByTagName('tree')[0];
         this.element = document.createElement(this.type);
         tree.appendChild(this.element);
         this.x = Math.floor(Math.random() * tree.clientWidth);
         this.y = Math.floor(Math.random() * tree.clientHeight);
         this.element.style.transform = "translate(" + this.x + "px," + this.y + "px)";
+        this.moveBind = function (e) { return _this.updatePosition(e); };
+        this.element.addEventListener("mousedown", function (e) { return _this.startDragging(e); });
+        this.element.addEventListener("mouseup", function (e) { return _this.stopDragging(e); });
+    };
+    DraggableFruit.prototype.startDragging = function (e) {
+        e.preventDefault();
+        this.offSetX = e.clientX - this.x;
+        this.offSetY = e.clientY - this.y;
+        window.addEventListener("mousemove", this.moveBind);
+    };
+    DraggableFruit.prototype.updatePosition = function (e) {
+        e.preventDefault();
+        this.x = e.clientX - this.offSetX;
+        this.y = e.clientY - this.offSetY;
+        this.element.style.transform = "translate(" + this.x + "px, " + this.y + "px)";
+    };
+    DraggableFruit.prototype.stopDragging = function (e) {
+        window.removeEventListener("mousemove", this.moveBind);
+        e.preventDefault();
     };
     return DraggableFruit;
 }());

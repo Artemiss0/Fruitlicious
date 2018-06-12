@@ -9,5 +9,7 @@ class GameObject{
     protected createElement(){
         this.element = document.createElement(this.type)
         document.body.appendChild(this.element)
+
+        this.element.style.transform = `translate(${this.x}px,${this.y}px)`
     }
 }

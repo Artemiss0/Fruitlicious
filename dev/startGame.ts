@@ -1,5 +1,7 @@
 class StartGame{
     constructor(){
-        console.log('lets gooo')
+        new Tree()
+        new CrateManager()
+        new FruitManager()
     }
 }

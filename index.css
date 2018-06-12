@@ -24,4 +24,25 @@ button{
     cursor: pointer;
     color: #292929;
 }
+tree{
+    background-image: url('images/tree.png');
+    height: 70.5vh; width: 27em;
+    background-size: cover;
+}
+applecrate{
+    background-image: url('images/crate.png');
+    width: 180px; height: 107px;
+}
+apple{
+    background-image: url('images/apple.png');
+    width: 44px; height: 54px;
+}
+grape{
+    background-image: url('images/grapes.png');
+    height: 57px; width: 52px;
+}
+pineapple{
+    background-image: url('images/pineapple.png');
+    height: 57px; width: 34px;
+}
 

@@ -14,12 +14,28 @@ https://stud.hosted.hr.nl/0947037/fruitlicious
 Licht toe waar en waarom je deze OOP principes hebt toegepast
 
 - [x] Classes
-```
-Give the example
-```
+in het klassendiagram is terug te vinden waar ik alle klasses heb toegepast.
+
 - [x] Encapsulation
+Ik heb gebruik gemaakt van zowel private,public als protected in mijn project. Waar ik encapsulation heb toegepast is o.a. terug te vinden in het klassendiagram. 
+
+In de class Startscreen maak ik gebruik van private en public.
+- private: Zorgt ervoor dat de waarde van het object niet buiten de klas aangepast kan worden 
+- public: De method: "removeButton" kan buiten de klas StartScreen worden aangesproken/veranderd omdat deze public is.
+- protected: Alleen klassen die overerven van de klas waarin het object word gemaakt kunnen het object aanspreken of aanpassen.
+
 ```
-Give the example
+/// <reference path="gameObject.ts" />
+class StartScreen extends GameObject{
+    private game:Game
+    constructor(game:Game){
+        super()
+        this.game = game
+    }
+    public removeButton(){
+        this.element.remove()
+    }
+}
 ```
 - [x] Composition
 ```

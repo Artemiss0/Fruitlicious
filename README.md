@@ -14,13 +14,22 @@ https://stud.hosted.hr.nl/0947037/fruitlicious
 Licht toe waar en waarom je deze OOP principes hebt toegepast
 
 - [x] Classes
-
-Encapsulation
-Composition
-Inheritance
 ```
 Give the example
 ```
+- [x] Encapsulation
+```
+Give the example
+```
+- [x] Composition
+```
+Give the example
+```
+- [x] Inheritance
+```
+Give the example
+```
+
 
 ## Klassendiagram
 <img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/UML-Diagram.png?raw=true" width="350"/>

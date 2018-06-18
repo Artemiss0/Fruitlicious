@@ -17,6 +17,7 @@ Licht toe waar en waarom je deze OOP principes hebt toegepast
 in het klassendiagram is terug te vinden waar ik alle klasses heb toegepast.
 
 - [x] Encapsulation
+
 Ik heb gebruik gemaakt van zowel private,public als protected in mijn project. Waar ik encapsulation heb toegepast is o.a. terug te vinden in het klassendiagram. 
 
 In de class Startscreen maak ik gebruik van private en public.

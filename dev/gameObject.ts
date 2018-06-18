@@ -1,8 +1,9 @@
 class GameObject{
-    protected element:HTMLElement
+    public element:HTMLElement
     protected x:number
     protected y :number
-    protected type:string
+    protected canvas = document.getElementsByTagName('canvas')[0]
+    public type:string // todo via get method
     constructor(){
         
     }
@@ -11,5 +12,8 @@ class GameObject{
         document.body.appendChild(this.element)
 
         this.element.style.transform = `translate(${this.x}px,${this.y}px)`
+    }
+    public getRectangle(){
+        return this.element.getBoundingClientRect()
     }
 }

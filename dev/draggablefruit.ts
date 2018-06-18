@@ -1,22 +1,23 @@
-class DraggableFruit{
-    protected element:HTMLElement
-    protected x:number
-    protected y :number
-    protected type:string
+/// <reference path="gameObject.ts" />
+
+
+class DraggableFruit extends GameObject{
     protected offSetX:number
     protected offSetY:number
     protected moveBind:EventListener
-    constructor(){    
+    constructor(){ 
+        super()  
     }
+
     protected createElement():void{
-        const tree = document.getElementsByTagName('tree')[0]
+        const tree = document.getElementsByTagName('fruitscreen')[0]
         //create and append fruit to tree
         this.element = document.createElement(this.type)
         tree.appendChild(this.element)
 
         //random positionering of the fruits 
-        this.x = Math.floor(Math.random() * tree.clientWidth)
-        this.y = Math.floor(Math.random() * tree.clientHeight)
+        this.x = Math.floor(Math.random() * tree.clientWidth - this.element.offsetWidth)
+        this.y = Math.floor(Math.random() * tree.clientHeight - this.element.offsetHeight)
 
         this.element.style.transform = `translate(${this.x}px,${this.y}px)`
 
@@ -39,6 +40,16 @@ class DraggableFruit{
         this.y = e.clientY - this.offSetY
 
         this.element.style.transform = `translate(${this.x}px, ${this.y}px)` 
+        this.getRectangle()
+    }
+    public getRectangle(){
+        return this.element.getBoundingClientRect()
+    }
+    public RemoveFruit(array:any, element:any){
+        let i = array.indexOf(element)
+        array.splice(i,1)
+        
+        return this.element.remove()
     }
     protected stopDragging(e:MouseEvent):void{
         window.removeEventListener("mousemove", this.moveBind)

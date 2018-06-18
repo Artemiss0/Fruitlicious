@@ -1,9 +1,8 @@
 /// <reference path="../draggablefruit.ts"/>
-class Apple extends DraggableFruit{
+class Strawberry extends DraggableFruit{
     constructor(){
         super()
-        this.type = 'apple'
+        this.type = 'strawberry'
         this.createElement()
-
     }
 }

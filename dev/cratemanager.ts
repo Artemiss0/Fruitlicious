@@ -1,8 +1,10 @@
 class CrateManager{
+    private crates: GameObject[] = []
+    public get crate(){
+        return this.crates
+    }
     constructor(){
         //adding the diffrent crates
-        new AppleCrate()
-        new PineappleCrate()
-        new GrapeCrate()
+        this.crates.push(new CherryCrate(),new StrawberryCrate(),new GrapeCrate())
     }
 }

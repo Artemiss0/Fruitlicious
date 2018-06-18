@@ -23,5 +23,11 @@ Ik heb een peerpitch afgenomen bij Lotte: https://github.com/0942533/PRG04/issue
 
 ## Extra uitdaging
 Als extra uitdaging heb ik ervoor gezorgd dat de game er verzorgd uitziet dankzij goed uitgewerkte UI design en artwork. Ik heb de frames eerst uitgewerkt in Adobe Illustrater en ze vervolgens in de game geplaatst. 
-### StartScreen:
+### Start Screen:
 <img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/scherm1.PNG?raw=true" width="350"/>
+
+### Play Screen:
+<img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/scherm2.PNG?raw=true" width="350"/>
+
+### Game Over Screen
+<img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/scherm3.PNG?raw=true" width="350"/>

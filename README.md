@@ -39,12 +39,22 @@ class StartScreen extends GameObject{
 }
 ```
 - [x] Composition
+
 ```
 Give the example
 ```
 - [x] Inheritance
+
+Met inheritance kunnen je objecten en functies overerven vanuit een andere klas. Ik heb inheritence gebruikt o.a. bij het aanmaken van het fruit en de kratten. 
 ```
-Give the example
+/// <reference path="../draggablefruit.ts"/>
+class Cherry extends DraggableFruit{
+    constructor(){
+        super()
+        this.type = 'cherry'
+        this.createElement()
+    }
+}
 ```
 
 

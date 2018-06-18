@@ -17,7 +17,6 @@ Composition
 Inheritance
 
 ## Klassendiagram
-De klassen diagram van de game is hier terug te vinden:
 <img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/UML-Diagram.png?raw=true" width="350"/>
 
 ## Peer review

@@ -6,15 +6,21 @@ Het spel is hier terug te vinden:
 https://stud.hosted.hr.nl/0947037/fruitlicious
 
 ## Checklist
-- [x] De game heeft een startscherm en een eindscherm.
+- [x] De game heeft een startscherm
+- [x] De game heeft een eindscherm
 - [x] Er zijn geen bugs.
-Toelichting OOP
+
+#### Toelichting OOP
 Licht toe waar en waarom je deze OOP principes hebt toegepast
 
-Classes
+- [x] Classes
+
 Encapsulation
 Composition
 Inheritance
+```
+Give the example
+```
 
 ## Klassendiagram
 <img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/UML-Diagram.png?raw=true" width="350"/>

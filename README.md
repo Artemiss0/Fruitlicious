@@ -6,7 +6,7 @@ Het spel is hier terug te vinden:
 https://stud.hosted.hr.nl/0947037/fruitlicious
 
 ## Checklist
-- [ x ] De game heeft een startscherm en een eindscherm.
+- [ v ] De game heeft een startscherm en een eindscherm.
 - [ ] Er zijn geen bugs.
 Toelichting OOP
 Licht toe waar en waarom je deze OOP principes hebt toegepast

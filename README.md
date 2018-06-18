@@ -15,8 +15,10 @@ Classes
 Encapsulation
 Composition
 Inheritance
-Klassendiagram
-Een klassendiagram van de game.
+
+## Klassendiagram
+De klassen diagram van de game is hier terug te vinden:
+<img src="https://github.com/Artemiss0/Fruitlicious/blob/master/documents/UML-Diagram.png?raw=true" width="350"/>
 
 ## Peer review
 Ik heb een peerpitch afgenomen bij Lotte: https://github.com/0942533/PRG04/issues/1

@@ -14,6 +14,7 @@ https://stud.hosted.hr.nl/0947037/fruitlicious
 Licht toe waar en waarom je deze OOP principes hebt toegepast
 
 - [x] Classes
+
 in het klassendiagram is terug te vinden waar ik alle klasses heb toegepast.
 
 - [x] Encapsulation
@@ -39,6 +40,7 @@ class StartScreen extends GameObject{
 }
 ```
 - [x] Composition
+
 klasses in andere klasses aanroepen
 
 ```

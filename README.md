@@ -5,6 +5,8 @@ Final School Assigment CMTTHE01-4
 Het spel is hier terug te vinden:
 https://stud.hosted.hr.nl/0947037/fruitlicious
 
+https://artemiss0.github.io/Fruitlicious/
+
 ## Checklist
 - [x] De game heeft een startscherm
 - [x] De game heeft een eindscherm
